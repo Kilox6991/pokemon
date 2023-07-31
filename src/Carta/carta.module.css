@@ -1,0 +1,105 @@
+.container {
+    background-color: greenyellow;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    height: 250px;
+    width: 200px;
+}
+
+.carta {
+    background-color: white;
+    color: black;
+    height: 250px;
+    width: 90%;
+    margin: 5%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins";
+}
+
+h3 {
+    margin: 0;
+}
+
+.nombreNumero {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.numero {
+    font-size: 10px;
+    font-family: "Poppins";
+}
+
+.nombre {
+    font-family: "Poppins";
+    font-size: 15px;
+
+}
+
+.caracteristicasFisicas {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+}
+
+.baseStats {
+    font-family: "Poppins";
+    font-size: 8px;
+    width: 100px;
+    text-align:center;
+    color: greenyellow
+}
+
+.stats {
+    display: flex;
+    ;
+    flex-direction: column;
+    justify-content: left;
+}
+
+p {
+    font-size: 5px;
+}
+
+.atributos ,.atributosName {
+    margin: 0;
+    width: 48%;
+    
+}
+.atributosName{
+    border-right: solid #e6e6e6;
+}
+
+.whm {
+    margin-inline-end: 20%;
+    margin: auto;
+    margin: 3px;
+}
+
+.tipoPokemon {
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
+
+.atributosDiv {
+    background-color: greenyellow;
+    height: 1.5px;
+    width: 100%;
+    margin: 1px;
+    margin-top: 2.5px;
+    border-radius:5%;
+}
+
+.statsAtributs {
+    display: flex;
+}
