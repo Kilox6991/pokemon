@@ -22,7 +22,7 @@ function Pokedex() {
     return(
     <>
     <Navbar></Navbar>
-    <div class={styles.container}>
+    <div class={styles.container} >
     {pokemos.map((pokemon, index)=>(
         <Carta key={index} name={pokemon.name}></Carta>
     ))}
