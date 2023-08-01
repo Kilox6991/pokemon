@@ -32,3 +32,10 @@ nav {
 .header{
     background-color: red;
 }
+.login-btn {
+    margin-right: 10px;
+}
+  
+  .register-btn {
+    margin-right: 10px;
+}
